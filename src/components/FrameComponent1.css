@@ -1,0 +1,17 @@
+.arrow-up-right-icon {
+  width: 16px;
+  position: relative;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.arrow-up-right-wrapper {
+  border-radius: var(--br-xl);
+  background-color: var(--white);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs);
+  cursor: pointer;
+}

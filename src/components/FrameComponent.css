@@ -1,0 +1,15 @@
+.logout-icon {
+  width: 20px;
+  position: relative;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.icon10 {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}

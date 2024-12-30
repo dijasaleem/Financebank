@@ -1,0 +1,21 @@
+.add-accounts {
+  width: 144px;
+  position: relative;
+  line-height: 24px;
+  text-transform: capitalize;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.button-big {
+  border-radius: var(--br-9xs);
+  background-color: var(--primary-color);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-13xl);
+  text-align: center;
+  font-size: var(--medium-16-24-size);
+  color: var(--white);
+  font-family: var(--medium-16-24);
+}

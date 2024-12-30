@@ -1,0 +1,303 @@
+.upcoming-bill,
+.view-all3 {
+  text-decoration: none;
+  position: relative;
+  line-height: 32px;
+  color: inherit;
+}
+.view-all3 {
+  line-height: 16px;
+  font-weight: 500;
+}
+.chevron-right-icon7 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.view-all-container,
+.view-all2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.view-all2 {
+  flex-direction: row;
+  gap: var(--gap-5xs);
+  cursor: pointer;
+}
+.view-all-container {
+  flex-direction: column;
+  padding: var(--padding-5xs) 0 0;
+  font-size: var(--regular-12-16-size);
+}
+.balance-goals1 {
+  width: 340px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.empty-header,
+.may {
+  width: 29px;
+  position: relative;
+  line-height: 16px;
+  font-weight: 500;
+  display: inline-block;
+}
+.empty-header {
+  font-size: var(--header-22-32-size);
+  line-height: 32px;
+  text-transform: capitalize;
+  font-weight: 800;
+  color: var(--default-black);
+}
+.date1 {
+  border-radius: var(--br-5xs);
+  background-color: var(--special-bg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-6xs);
+  gap: var(--gap-11xs);
+}
+.figma-icon {
+  width: 44.8px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.figma-monthly {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+.last-charge- {
+  position: relative;
+  font-size: var(--regular-12-16-size);
+  line-height: 16px;
+  color: var(--gray-03);
+}
+.text4 {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-11xs);
+}
+.details5,
+.subscription-name,
+.text4 {
+  display: flex;
+  justify-content: flex-start;
+}
+.subscription-name {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-9xs);
+  text-align: left;
+  font-size: var(--medium-16-24-size);
+  color: var(--secondary);
+}
+.details5 {
+  width: 216px;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-xs);
+}
+.b3 {
+  position: relative;
+  line-height: 24px;
+  text-transform: capitalize;
+  display: inline-block;
+  min-width: 45px;
+}
+.amount2,
+.bill-one {
+  display: flex;
+  flex-direction: row;
+}
+.amount2 {
+  border-radius: var(--br-5xs);
+  background-color: var(--white);
+  border: 1px solid var(--gray-05);
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-4xs) var(--padding-7xs)
+    var(--padding-xs);
+  font-size: var(--medium-16-24-size);
+  color: var(--secondary);
+}
+.bill-one {
+  align-self: stretch;
+  border-bottom: 1px solid var(--gray-06);
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-5xs) 0 var(--padding-lg);
+  gap: var(--gap-xl);
+}
+.div5,
+.jun {
+  align-self: stretch;
+  position: relative;
+  line-height: 16px;
+  font-weight: 500;
+}
+.div5 {
+  font-size: var(--header-22-32-size);
+  line-height: 32px;
+  text-transform: capitalize;
+  font-weight: 800;
+  color: var(--default-black);
+  display: inline-block;
+  min-width: 29px;
+}
+.date2 {
+  border-radius: var(--br-5xs);
+  background-color: var(--special-bg);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-6xs) var(--padding-5xs)
+    var(--padding-5xs);
+  gap: var(--gap-11xs);
+}
+.logo-icon,
+.name-icon {
+  height: 16px;
+  width: 17.9px;
+  position: relative;
+}
+.name-icon {
+  width: 36.9px;
+  height: 9.8px;
+}
+.target-logo-container,
+.target-name-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.target-name-container {
+  flex-direction: column;
+  padding: var(--padding-10xs-9) 0 0;
+}
+.target-logo-container {
+  flex-direction: row;
+  gap: var(--gap-7xs-2);
+}
+.target-logo-container-parent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-10xs);
+}
+.amount3,
+.date-parent,
+.frame-wrapper,
+.target-logo-container-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-wrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+  text-align: left;
+  font-size: var(--medium-16-24-size);
+  color: var(--secondary);
+}
+.amount3,
+.date-parent {
+  flex-direction: row;
+}
+.date-parent {
+  flex: 1;
+  gap: var(--gap-xs);
+  min-width: 140px;
+}
+.amount3 {
+  align-self: stretch;
+  height: 40px;
+  border-radius: var(--br-5xs);
+  background-color: var(--white);
+  border: 1px solid var(--gray-05);
+  box-sizing: border-box;
+  padding: var(--padding-7xs) var(--padding-4xs) var(--padding-7xs)
+    var(--padding-xs);
+}
+.amount-wrapper {
+  flex-direction: column;
+  padding: var(--padding-smi) 0 0;
+  font-size: var(--medium-16-24-size);
+  color: var(--secondary);
+}
+.amount-wrapper,
+.balance-goals,
+.bill-one1,
+.contents {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bill-one1 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: var(--padding-xl) 0 var(--padding-9xs);
+  gap: var(--gap-xl);
+}
+.balance-goals,
+.contents {
+  flex-direction: column;
+}
+.contents {
+  align-self: stretch;
+  box-shadow: var(--shadow-01);
+  border-radius: var(--br-5xs);
+  background-color: var(--white);
+  padding: var(--padding-5xl);
+  text-align: center;
+  font-size: var(--regular-12-16-size);
+  color: var(--gray-01);
+}
+.balance-goals {
+  flex: 1;
+  gap: var(--gap-5xs);
+  min-width: 264px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--header-22-32-size);
+  color: var(--gray-02);
+  font-family: var(--medium-16-24);
+}
+@media screen and (max-width: 450px) {
+  .upcoming-bill {
+    font-size: var(--font-size-lg);
+    line-height: 26px;
+  }
+  .balance-goals1 {
+    flex-wrap: wrap;
+  }
+  .empty-header {
+    font-size: var(--font-size-lg);
+    line-height: 26px;
+  }
+  .bill-one {
+    flex-wrap: wrap;
+  }
+  .div5 {
+    font-size: var(--font-size-lg);
+    line-height: 26px;
+  }
+  .bill-one1 {
+    flex-wrap: wrap;
+  }
+}

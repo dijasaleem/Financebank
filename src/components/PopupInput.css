@@ -1,0 +1,34 @@
+.empty-target1,
+.target-amounts {
+  position: relative;
+  line-height: 24px;
+}
+.target-amounts {
+  font-weight: 600;
+}
+.empty-target1 {
+  width: 312px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.empty-popup,
+.popup-input {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.empty-popup {
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--gray-04);
+  flex-direction: row;
+  padding: var(--padding-base) var(--padding-5xl);
+  color: var(--gray-02);
+}
+.popup-input {
+  flex-direction: column;
+  gap: var(--gap-5xs);
+  text-align: left;
+  font-size: var(--medium-16-24-size);
+  color: var(--secondary);
+  font-family: var(--medium-16-24);
+}

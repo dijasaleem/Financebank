@@ -1,0 +1,11 @@
+.notification-icon-child {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.notification-icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}

@@ -1,0 +1,15 @@
+.visa-logo-1-icon {
+  position: absolute;
+  top: 9px;
+  left: 1px;
+  width: 46px;
+  height: 14px;
+  object-fit: cover;
+}
+.visacard {
+  width: 48px;
+  position: relative;
+  height: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+}

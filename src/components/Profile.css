@@ -1,0 +1,59 @@
+.image-icon {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.tanzir-rahman {
+  width: 140px;
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+  display: inline-block;
+}
+.view-profile {
+  position: relative;
+  font-size: var(--regular-12-16-size);
+  line-height: 16px;
+  color: var(--special-bg2);
+}
+.name,
+.name-picture {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.name-picture {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-base);
+}
+.icon-child {
+  width: 4px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--white);
+  height: 4px;
+}
+.icon11,
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.profile {
+  border-top: 1px solid var(--special-bg3);
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-13xl) 0;
+  gap: var(--gap-13xl);
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--medium-16-24-size);
+  color: var(--white);
+  font-family: var(--medium-16-24);
+}

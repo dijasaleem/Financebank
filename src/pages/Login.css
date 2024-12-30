@@ -1,0 +1,90 @@
+.fine {
+  font-weight: 800;
+}
+.bank {
+  font-weight: 500;
+}
+.finebankio {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.08em;
+  line-height: 32px;
+  font-family: inherit;
+}
+.finebankio-wrapper,
+.frame-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.finebankio-wrapper {
+  width: 276px;
+}
+.frame-group {
+  align-self: stretch;
+  gap: 64px;
+  max-width: 100%;
+}
+.create-an-account {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--medium-16-24-size);
+  line-height: 24px;
+  font-weight: 600;
+  font-family: var(--medium-16-24);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.frame-parent,
+.login {
+  display: flex;
+  align-items: flex-start;
+}
+.frame-parent {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  max-width: 100%;
+}
+.login {
+  width: 100%;
+  position: relative;
+  background-color: var(--special-main-bg);
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: center;
+  padding: 160px var(--padding-xl) 268px;
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: 40px;
+  color: var(--primary-color);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 750px) {
+  .finebankio {
+    font-size: var(--font-size-13xl);
+    line-height: 26px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .finebankio {
+    font-size: var(--bold-24-28-size);
+    line-height: 19px;
+  }
+  .finebankio-wrapper {
+    gap: var(--gap-xl);
+  }
+  .frame-group {
+    gap: var(--gap-13xl);
+  }
+  .frame-parent {
+    gap: var(--gap-xl);
+  }
+}

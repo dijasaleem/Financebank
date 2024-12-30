@@ -1,0 +1,22 @@
+.text5 {
+  width: 314px;
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+}
+.input {
+  width: 400px;
+  height: 48px;
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--gray-021);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-base);
+  text-align: left;
+  font-size: var(--medium-16-24-size);
+  color: var(--gray-021);
+  font-family: var(--medium-16-24);
+}

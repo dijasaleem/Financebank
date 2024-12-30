@@ -1,0 +1,19 @@
+.keep-me-signed {
+  width: 228px;
+  position: relative;
+  line-height: 24px;
+  font-weight: 300;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.remind-me {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--medium-16-24-size);
+  color: var(--black);
+  font-family: var(--medium-16-24);
+}

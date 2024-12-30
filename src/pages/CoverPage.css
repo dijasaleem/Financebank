@@ -1,0 +1,37 @@
+.icon,
+.icon1 {
+  position: absolute;
+  top: -181px;
+  left: 470px;
+  border-radius: var(--br-5xl);
+  width: 1525px;
+  height: 1084px;
+  object-fit: cover;
+}
+.icon1 {
+  top: 333px;
+  left: 0;
+  z-index: 1;
+}
+.cover-page-03,
+.main1 {
+  height: 1200px;
+  position: relative;
+}
+.main1 {
+  width: 1995px;
+  max-width: 100%;
+}
+.cover-page-03 {
+  width: 100%;
+  background-color: var(--color-darkslategray);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+}

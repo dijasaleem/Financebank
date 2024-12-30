@@ -1,0 +1,24 @@
+.fill,
+.iconsoutlinecheckmark {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.fill {
+  border-radius: var(--br-11xs);
+  background-color: var(--primary-color);
+}
+.iconsoutlinecheckmark {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.tick {
+  height: 20px;
+  width: 20px;
+  position: relative;
+}

@@ -1,0 +1,59 @@
+.fine1 {
+  font-weight: 800;
+}
+.bank1 {
+  font-weight: 500;
+}
+.finebankio1 {
+  text-decoration: none;
+  width: 224px;
+  position: relative;
+  letter-spacing: 0.08em;
+  line-height: 32px;
+  color: inherit;
+  display: inline-block;
+}
+.footer2,
+.logo-menu,
+.menu,
+.nav-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.menu {
+  margin: 0;
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--medium-16-24-size);
+  color: var(--white);
+  font-family: var(--medium-16-24);
+}
+.footer2,
+.logo-menu,
+.nav-bar {
+  gap: var(--gap-21xl);
+}
+.footer2,
+.nav-bar {
+  gap: var(--gap-25xl);
+  text-align: left;
+  font-size: var(--medium-16-24-size);
+  font-family: var(--medium-16-24);
+}
+.nav-bar {
+  background-color: var(--default-black);
+  padding: var(--padding-29xl) var(--padding-9xl);
+  gap: var(--gap-209xl);
+  z-index: 2;
+  text-align: center;
+  font-size: var(--bold-24-28-size);
+  color: var(--white);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 925px) {
+  .nav-bar {
+    display: none;
+  }
+}

@@ -1,0 +1,27 @@
+.label {
+  text-decoration: none;
+  width: 160px;
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.buttonprimary {
+  width: 400px;
+  height: 48px;
+  border-radius: var(--br-9xs);
+  background-color: var(--primary-color);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-base) var(--padding-xs);
+  box-sizing: border-box;
+  cursor: pointer;
+  text-align: center;
+  font-size: var(--medium-16-24-size);
+  color: var(--white);
+  font-family: var(--medium-16-24);
+}

@@ -1,0 +1,28 @@
+.details4 {
+  position: relative;
+  line-height: 20px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.chevron-right-icon6 {
+  width: 16px;
+  position: relative;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.button {
+  border-radius: var(--br-9xs);
+  background-color: var(--primary-color);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-xl);
+  gap: var(--gap-5xs);
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--medium-14-20-size);
+  color: var(--white);
+  font-family: var(--medium-16-24);
+}

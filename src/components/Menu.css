@@ -1,0 +1,58 @@
+.menuoverview-icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.overview2 {
+  text-decoration: none;
+  height: 24px;
+  width: 156px;
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+}
+.root {
+  border-radius: var(--br-9xs);
+  background-color: var(--primary-color);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-base);
+  gap: var(--gap-xs);
+  text-align: left;
+  font-size: var(--medium-16-24-size);
+  color: var(--white);
+  font-family: var(--medium-16-24);
+}
+.root[data-status="Inactive"][data-type="Balances"],
+.root[data-status="Inactive"][data-type="Bills"],
+.root[data-status="Inactive"][data-type="Expenses"],
+.root[data-status="Inactive"][data-type="Goals"],
+.root[data-status="Inactive"][data-type="Overview"],
+.root[data-status="Inactive"][data-type="Settings"],
+.root[data-status="Inactive"][data-type="Transactions"] {
+  background-color: unset;
+}
+.root[data-status="Inactive"][data-type="Balances"] .overview2 {
+  font-weight: unset;
+  color: var(--special-bg2);
+}
+.root[data-status="Inactive"][data-type="Bills"] .overview2,
+.root[data-status="Inactive"][data-type="Expenses"] .overview2,
+.root[data-status="Inactive"][data-type="Goals"] .overview2,
+.root[data-status="Inactive"][data-type="Transactions"] .overview2 {
+  text-decoration: unset;
+  height: unset;
+  font-weight: unset;
+  color: var(--special-bg2);
+}
+.root[data-status="Inactive"][data-type="Overview"] .overview2,
+.root[data-status="Inactive"][data-type="Settings"] .overview2 {
+  font-weight: unset;
+  color: var(--special-bg2);
+}

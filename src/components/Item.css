@@ -1,0 +1,74 @@
+.gamepad-2-icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.icon12 {
+  border-radius: var(--br-5xs);
+  background-color: var(--special-bg);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs);
+}
+.gtr-5 {
+  width: 146px;
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+  display: inline-block;
+}
+.gadget-gear {
+  position: relative;
+  font-size: var(--regular-12-16-size);
+  line-height: 16px;
+  color: var(--gray-03);
+}
+.icon-details,
+.item-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.icon-details {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-base);
+}
+.price-value {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+.may-20232 {
+  position: relative;
+  font-size: var(--regular-12-16-size);
+  line-height: 16px;
+  color: var(--gray-03);
+  text-align: left;
+}
+.item,
+.price {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: right;
+  color: var(--secondary);
+}
+.item {
+  border-bottom: 1px solid var(--gray-06);
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) 0;
+  gap: var(--gap-9xl);
+  text-align: left;
+  font-size: var(--medium-16-24-size);
+  color: var(--default-black);
+  font-family: var(--medium-16-24);
+}
